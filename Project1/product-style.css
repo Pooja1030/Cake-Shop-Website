@@ -1,0 +1,394 @@
+body {
+    background-color: black;margin: 0;
+    width: auto;
+    color: #D9CCC5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+/* -----------NAvbar--------- */
+
+nav {
+    /* background-color: black; */
+    /* text-align: right; */
+    font-size: 1.25em;
+    padding: 1.5em;
+    text-transform: uppercase;
+}
+
+nav a {
+    padding: 0 1.5em;
+    color: #D9CCC5;
+    text-decoration: none;
+    /* font-size: 12px; */
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    /* text-align: right; */
+    list-style-type: none;
+    float: right;
+    margin-right: 11em;
+}
+
+
+.container {
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    /* display: flex; */
+    margin: 0 auto;
+    place-content: space-between;
+}
+
+section {
+    padding: 2em;
+    margin-left: 15em;
+    margin-right: 15em;
+    /* background-color: brown; */
+}
+
+
+/* ----------Categories---------- */
+
+.categories {
+    /* background: white; */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 1.5em 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #D9CCC5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categories a {
+    text-decoration: none;
+    display: block;
+    font-size: 1.5em;
+    padding: .2em 1em;
+    margin: auto .2em;
+    min-width: 3em;
+}
+
+.categories .current {
+    font-weight: bold;
+    color: white;
+    border-bottom: .1em solid white;
+
+}
+
+.categories a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* ----------Path---------- */
+
+.path {
+    color: #8C8485;
+    text-align: center;
+    margin: .75em auto;
+    /* padding: 12em auto; */
+    /* background-color: bisque; */
+}
+
+.path a {
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: .2em .5em;
+    color: #8C8485;
+}
+
+.path a:hover{
+    text-decoration: underline;
+}
+
+
+
+/* ----------image---------- */
+.product-img {
+    width: 50%;
+    height: 50%;
+    border-radius: .5em;
+}
+
+/* ----------Product details---------- */
+
+.product .container {
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: left;
+    color: #ffefe7;
+}
+
+.product .container .right-col {
+    margin: 0 3em auto 5em;
+    /* margin: 3em; */
+    padding: .5em;
+    max-width: 40%;
+    /* background-color: white; */
+}
+
+.product .container .right-col h1 {
+    font-size: 3em;
+    width: 90%;
+}
+
+.product .price{
+    margin-top: -1.5em;
+    font-size: 1.5em;
+}
+
+
+
+/* -----------Add to cart------- */
+
+button {
+    border: none;
+    outline: 0;
+    font-weight: bold;
+    padding: .7em;
+    color: #0D0D0D;
+    background-color: #D9CCC5;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+.weight {
+    display: flex;
+    height: 2.5em;
+    margin: 2em auto;
+}
+
+.weight h2 {
+    color: whi;
+    margin-top: .3em;
+    padding-right: .5em;
+}
+
+select {
+    display: flex;
+    color: #D9CCC5;
+    background-color: #40383A;
+    border: none;
+    border-radius: 5px;
+    padding: .2em;
+    height: 2em;
+    font-size: 1.2em;
+}
+
+.product button {
+    margin: auto 1em auto 0;
+    max-width: 30%;
+    height: 2.5em;
+    padding: .2em;
+}
+
+.atc-btns {
+    display: flex;
+    margin: 1em auto;
+    justify-content: left;
+
+    /* background-color: #4d4d4d; */
+}
+
+
+
+
+
+
+/* ------------Discription------------ */
+.details-btns {
+    display: flex;
+    margin: 3em auto .2em;
+    justify-content: left;
+
+    /* background-color: #4d4d4d; */
+}
+
+.details-btns button {
+    color: #D9CCC5;
+    background-color: #0D0D0D;
+    font-size: 1.5em;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+    margin: auto 3em auto 0;
+    width: fit-content;
+    max-height: 1.8em;
+    /* max-width: 50%;
+    height: 2em;
+    padding: .2em; */
+}
+
+.details-btns .current-btn {
+    /* text-decoration: underline .15em; */
+    color: white;
+    border-bottom: .15em white solid;
+    border-radius: 0;
+}
+
+.details {
+    display: inline-flex;
+    font-size: 1.3em;
+    text-align: left;
+    margin: 1.2em auto;
+    max-width: 80%;
+    /* padding: 2em; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------similar products-------- */
+.similar .container {
+    /* display: flex; */
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-align: center;
+    /* background-color: #4d4d4d; */
+}
+
+.similar h1{
+    font-size: 2em;
+    padding-top: 2em;
+    /* background-color: #F2F2F2; */
+}
+
+.similar .container a p{
+    /* text-decoration: none; */
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* ----------catalog---------- */
+
+.catalog {
+    padding: 0 3em;
+    /* background-color: wheat; */
+}
+
+.catalog ul {
+    display: grid;
+
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    /* display: flex; */
+    flex-direction: unset;
+    gap: 2em;
+    /* padding-top: 2.5em; */
+
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
+}
+
+
+
+/* ----------Card---------- */
+
+.card {
+    max-width: 20em;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    padding: .5em;
+    border: #8C8485 solid .1em;
+    border-radius: 10px;
+    background-color: #0D0D0D;
+    
+}
+
+.card img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.card img:hover {
+    cursor: pointer;
+}
+
+.card .product-name {
+    font-size: 1.6em;
+    height: 1.2em;
+    font-weight: bold;
+    margin-bottom: 50% 0;
+    overflow: hidden;
+    /* padding: 1.1em 0; */
+}
+
+.price {
+    color: #D9CCC5;
+    /* font-weight: bold; */
+    font-size: 1.2em;
+    margin-top: -.7em;
+}
+
+.card button {
+    border: none;
+    font-weight: bold;
+    outline: 0;
+    padding: .7em;
+    color: #0D0D0D;
+    background-color: #D9CCC5;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+.card button:hover {
+    background-color: white;
+    color: black;
+}
+
+
